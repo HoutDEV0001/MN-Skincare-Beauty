@@ -1014,10 +1014,10 @@ p {
 }
 
 .gold-divider {
-  width: 60px;
+  width: 80px;
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 24px auto 0;
+  margin: 24px auto ;
 }
 
 .process-grid { 
