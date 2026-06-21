@@ -408,11 +408,13 @@ hr{
 }
 
 .product-info { 
-  padding: 20px 22px 26px ; 
-}
-.product-info {
+  padding: 20px 22px 26px ;
   display: block;
-  justify-content: space-between;
+  justify-content: space-between; 
+}
+.product-info p{
+  font-family:  'Kantumruy Pro' ,'Noto Sans Khmer', sans-serif ;
+
 }
 
 .btn-cart {
@@ -2198,6 +2200,15 @@ hr{
   .about-content .eyebrow{
     display: none;
   }
+  .about-content p{
+    margin-left: 10px;
+    margin-right: 50px;
+  }
+    .about-img-wrap{
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+
   .dev-card { 
     padding: 32px 20px; 
     border-radius: 20px; 
@@ -2265,7 +2276,5 @@ hr{
     padding: 56px 20px 48px; 
     margin-top: 40px;
   }
-  .about-img-wrap{
-    margin-left: 40px;
-  }
+
 }
